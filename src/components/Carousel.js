@@ -5,7 +5,6 @@ import "../styles/slick/slick-theme.css";
 import "../styles/carousel.css"; //import your own css file here
 import blindDate from "../images/blind_date.jpg";
 import nepalIdol from "../images/nepal_idol.jpg";
-import singhadurbar from "../images/singhadurbar.jpg";
 import meriBassai from "../images/meri_bassai.jpg";
 
 const Carousel = () => {
@@ -16,10 +15,11 @@ const Carousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    arrows: false, //hide previous and next buttons
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container slick-list">
       <Slider {...settings}>
         <div>
           <div className="carousel-item">
@@ -39,15 +39,7 @@ const Carousel = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="carousel-item">
-            <img src={singhadurbar} alt="image3" />
-            <div className="carousel-item-info">
-              <h2>Title</h2>
-              <button className="watch-now-btn">Watch Now</button>
-            </div>
-          </div>
-        </div>
+
         <div>
           <div className="carousel-item">
             <img src={nepalIdol} alt="image3" />
