@@ -1,0 +1,92 @@
+.carousel-container {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .slick-prev {
+    left: 1rem;
+  }
+  
+  .slick-next {
+    right: 1rem;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    cursor: pointer;
+  }
+  
+  .slick-prev:focus,
+  .slick-next:focus {
+    outline: none;
+  }
+  
+  .carousel-container .slick-dots {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel-container .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  
+  .carousel-container .slick-dots button {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel-container .slick-dots button:hover,
+  .carousel-container .slick-dots button:focus {
+    background-color: #cf0a0a;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .carousel-container .slick-dots .slick-active button {
+    background-color: #cf0a0a;
+  }
+  
+  .carousel-container .watch-now-btn {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #cf0a0a;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel-container .watch-now-btn:hover {
+    background-color: #fff;
+    color: #cf0a0a;
+    cursor: pointer;
+  }
+  
