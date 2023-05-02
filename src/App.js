@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -14,11 +14,11 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/new" component={New} />
-          <Route exact path="/movies" component={Movies} />
-          <Route exact path="/cartoon" component={Cartoon} />
-          <Route exact path="/tv" component={TV} />
+          <Route path="/" element={<Home />} />
+          <Route path="/new" element={<New />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/cartoon" element={<Cartoon />} />
+          <Route path="/shows" element={<TV />} />
         </Routes>
       </div>
     </Router>
