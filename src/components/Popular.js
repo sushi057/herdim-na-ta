@@ -15,10 +15,12 @@ const Popular = () => {
             </div>
             <div className="popular-item-info">
               <h3>{show.name}</h3>
-              <div className={`popular-item-rating bg-yellow`}>
-                {show.rating}
+              <div className="popular-item-details">
+                <div className={"popular-item-rating"}>{show.rating}</div>
+                <div className="popular-item-seasons">
+                  {show.seasons} Seasons
+                </div>
               </div>
-              <div className="popular-item-seasons">{show.seasons} Seasons</div>
             </div>
           </div>
         ))}
