@@ -1,8 +1,8 @@
 .friends-container {
+  /* width: 100%; */
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem;
 }
 
 .friends-header {
@@ -11,7 +11,14 @@
   margin-bottom: 1rem;
 }
 
+.friends-list {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
 .friend {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +33,7 @@
 
 .friend-show {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .friend-show-image {
@@ -37,5 +44,7 @@
 }
 
 .friend-show-name {
+  float: left;
   font-size: 1rem;
+  font-weight: bold;
 }

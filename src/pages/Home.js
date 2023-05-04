@@ -7,12 +7,16 @@ import "../styles/home.css";
 
 function Home() {
   return (
-    <>
-      <Carousel />
-      <Popular />
-      <User />
-      <Friends />
-    </>
+    <div className="homepage">
+      <div className="left-side">
+        <Carousel />
+        <Popular />
+      </div>
+      <div className="right-side">
+        <User />
+        <Friends />
+      </div>
+    </div>
   );
 }
 
