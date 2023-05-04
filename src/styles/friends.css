@@ -1,0 +1,41 @@
+.friends-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.friends-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.friend-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.friend-show {
+  display: flex;
+  align-items: center;
+}
+
+.friend-show-image {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.friend-show-name {
+  font-size: 1rem;
+}

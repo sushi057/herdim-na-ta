@@ -11,7 +11,7 @@ function Home() {
       <Carousel />
       <Popular />
       <User />
-      {/* <Friends /> */}
+      <Friends />
     </>
   );
 }
