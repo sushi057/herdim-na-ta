@@ -1,7 +1,13 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
 .left-side {
-  width: 100%;
+  display: grid;
+  width: 50%;
 }
 
 .right-side {
-  width: 50%;
+  display: grid;
 }
