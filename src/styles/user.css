@@ -25,7 +25,6 @@
 .user-sections {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
   margin: 1rem;
   flex-grow: 1;
 }
@@ -53,8 +52,8 @@
 }
 
 .user-show img {
-  width: 10rem;
-  height: 15rem;
+  width: 7rem;
+  border-radius: 8px;
   object-fit: cover;
   margin-bottom: 0.5rem;
 }
