@@ -12,7 +12,7 @@ const Cartoon = () => {
             <Item
               name={movie.name}
               image={movie.image}
-              rating={movie.ratign}
+              rating={movie.rating}
               seasons={movie.seasons}
             />
           ))}
@@ -25,7 +25,7 @@ const Cartoon = () => {
             <Item
               name={movie.name}
               image={movie.image}
-              rating={movie.ratign}
+              rating={movie.rating}
               seasons={movie.seasons}
             />
           ))}
@@ -38,7 +38,7 @@ const Cartoon = () => {
             <Item
               name={movie.name}
               image={movie.image}
-              rating={movie.ratign}
+              rating={movie.rating}
               seasons={movie.seasons}
             />
           ))}
@@ -51,7 +51,7 @@ const Cartoon = () => {
             <Item
               name={movie.name}
               image={movie.image}
-              rating={movie.ratign}
+              rating={movie.rating}
               seasons={movie.seasons}
             />
           ))}
