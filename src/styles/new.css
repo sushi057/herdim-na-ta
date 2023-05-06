@@ -1,0 +1,7 @@
+.new-container {
+  padding: 1.5rem;
+}
+
+.new-items {
+  display: flex;
+}

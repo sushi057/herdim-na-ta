@@ -10,7 +10,9 @@ const Item = ({ image, name, rating, seasons }) => {
       <div className="item-info">
         <div className="item-details">
           <div className="item-rating">{rating}</div>
-          <div className="item-seasons">{seasons} Seasons</div>
+          {seasons && (
+            <div className="item-seasons">{seasons} Seasons</div>
+          )}{" "}
         </div>
         <h3>{name}</h3>
       </div>
