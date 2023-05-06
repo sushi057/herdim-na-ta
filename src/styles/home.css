@@ -1,11 +1,14 @@
 .homepage {
   display: grid;
   grid-template-columns: 65% 35%;
+  /* background-color: black;
+  color: white; */
 }
 
 .left-side {
   display: grid;
-  width: 50%;
+  width: 90%;
+  padding: 1rem;
 }
 
 .right-side {

@@ -1,7 +1,6 @@
 .carousel-container {
-  width: 70%;
   overflow: hidden;
-  padding: 0;
+  border-radius: 1.4rem;
 }
 
 .carousel-item {

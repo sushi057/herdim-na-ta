@@ -14,7 +14,7 @@ const Carousel = () => {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     arrows: false, //hide previous and next buttons
   };
 
@@ -25,7 +25,7 @@ const Carousel = () => {
           <div className="carousel-item">
             <img src={meriBassai} alt="image1" />
             <div className="carousel-item-info">
-              <h2>Title</h2>
+              <h2>Meri Bassai</h2>
               <button className="watch-now-btn">Watch Now</button>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Carousel = () => {
           <div className="carousel-item">
             <img src={blindDate} alt="image2" />
             <div className="carousel-item-info">
-              <h2>Title</h2>
+              <h2>Blind Date</h2>
               <button className="watch-now-btn">Watch Now</button>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Carousel = () => {
           <div className="carousel-item">
             <img src={nepalIdol} alt="image3" />
             <div className="carousel-item-info">
-              <h2>Title</h2>
+              <h2>Nepal Idol</h2>
               <button className="watch-now-btn">Watch Now</button>
             </div>
           </div>
