@@ -10,7 +10,7 @@ const Friends = () => {
           <div className="friend-name">Sandesh</div>
           <div className="friend-show">
             <img
-              src="https://i.imgur.com/vBvV7T2.jpg"
+              src="https://m.media-amazon.com/images/I/81R7QZV5P1L._AC_UF894,1000_QL80_.jpg"
               alt="The Office"
               className="friend-show-image"
             />
@@ -21,7 +21,7 @@ const Friends = () => {
           <div className="friend-name">Prayag</div>
           <div className="friend-show">
             <img
-              src="https://i.imgur.com/W6VPy8W.jpg"
+              src="https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
               alt="Friends"
               className="friend-show-image"
             />
@@ -32,7 +32,7 @@ const Friends = () => {
           <div className="friend-name">Prakriti</div>
           <div className="friend-show">
             <img
-              src="https://i.imgur.com/60Gp5Sb.jpg"
+              src="https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
               alt="Stranger Things"
               className="friend-show-image"
             />
