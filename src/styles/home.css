@@ -1,8 +1,8 @@
 .homepage {
   display: grid;
   grid-template-columns: 65% 35%;
-  /* background-color: black;
-  color: white; */
+  background-color: black;
+  color: white;
 }
 
 .left-side {

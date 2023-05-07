@@ -1,5 +1,7 @@
 .new-container {
   padding: 1.5rem;
+  background-color: black;
+  color: white;
 }
 
 .new-items {

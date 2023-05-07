@@ -18,7 +18,7 @@
 .item-image img {
   height: 220px;
   width: 150px;
-  object-fit: cover;
+  /* object-fit: contain; */
   border-radius: 10px;
 }
 
