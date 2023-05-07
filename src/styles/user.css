@@ -7,7 +7,7 @@
 .user-profile {
   display: flex;
   align-items: center;
-  margin: 1rem;
+  margin: 1rem 1rem 0;
 }
 
 .user-profile img {
@@ -27,10 +27,6 @@
   flex-direction: column;
   margin: 1rem;
   flex-grow: 1;
-}
-
-.user-section {
-  margin-bottom: 1.5rem;
 }
 
 .user-section h4 {
@@ -53,6 +49,7 @@
 
 .user-show img {
   width: 7rem;
+  height: 80%;
   border-radius: 8px;
   object-fit: cover;
   margin-bottom: 0.5rem;
