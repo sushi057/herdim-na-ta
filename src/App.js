@@ -10,15 +10,17 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/new" element={<New />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/cartoon" element={<Cartoon />} />
           <Route path="/shows" element={<TV />} />
+          <Route path="/search" element={<Home />} />
+          <Route path="/user" element={<Home />} />
         </Routes>
       </div>
     </Router>
