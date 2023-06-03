@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/herdim-na-ta/static/css/main.073c9b0a.css",
-    "main.js": "/herdim-na-ta/static/js/main.cc6b8a9f.js",
-    "static/js/787.71e672d5.chunk.js": "/herdim-na-ta/static/js/787.71e672d5.chunk.js",
-    "static/media/logo.svg": "/herdim-na-ta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/herdim-na-ta/static/css/main.5c14fe7a.css",
+    "main.js": "/herdim-na-ta/static/js/main.c188c300.js",
+    "static/media/nepal_idol.jpg": "/herdim-na-ta/static/media/nepal_idol.5092fee6b5604524820a.jpg",
+    "static/media/meri_bassai.jpg": "/herdim-na-ta/static/media/meri_bassai.96c8d9a23bc32452f313.jpg",
+    "static/media/blind_date.jpg": "/herdim-na-ta/static/media/blind_date.c6e6f0b9a550bcfb10ce.jpg",
+    "static/media/user-logo.png": "/herdim-na-ta/static/media/user-logo.44ea40a3eb8dd7fed2a9.png",
     "index.html": "/herdim-na-ta/index.html",
-    "main.073c9b0a.css.map": "/herdim-na-ta/static/css/main.073c9b0a.css.map",
-    "main.cc6b8a9f.js.map": "/herdim-na-ta/static/js/main.cc6b8a9f.js.map",
-    "787.71e672d5.chunk.js.map": "/herdim-na-ta/static/js/787.71e672d5.chunk.js.map"
+    "main.5c14fe7a.css.map": "/herdim-na-ta/static/css/main.5c14fe7a.css.map",
+    "main.c188c300.js.map": "/herdim-na-ta/static/js/main.c188c300.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.cc6b8a9f.js"
+    "static/css/main.5c14fe7a.css",
+    "static/js/main.c188c300.js"
   ]
 }
